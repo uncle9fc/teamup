@@ -1,0 +1,89 @@
+#form {
+    color: green;
+    font-family: "Microsoft YaHei";
+    font-size: 200%;
+    font-weight: bold;
+    border: 1px solid powderblue;
+    padding: 15px;
+    column-count: 1;
+}
+
+#button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Microsoft YaHei;
+    font-size: 24px;
+}
+
+    
+#teams1 {
+    color: green;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teams2 {
+    color: green;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teamsall {
+    color: green;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+#teamred {
+    color: red;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teamblue {
+    color: blue;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teamwhite {
+    color: green;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teamredtext {
+    color: red;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teambluetext {
+    color: blue;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+#teamwhitetext {
+    color: green;
+    font-family: Microsoft YaHei;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+
+
