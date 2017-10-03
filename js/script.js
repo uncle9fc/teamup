@@ -3,7 +3,7 @@ document.getElementById('button').onclick = function(){
 
     //get arrays and combine into one;
     var selchb1 = functionGetSelectedChbox(0,11);
-    var selchb2 = functionGetSelectedChbox(12,39); 
+    var selchb2 = functionGetSelectedChbox(12,44); 
     var selchb3 = selchb1.concat(selchb2);
 
     //define each team array;
