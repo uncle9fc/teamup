@@ -23,7 +23,20 @@ document.getElementById('button').onclick = function(){
     document.getElementById("teamwhite").innerHTML = teamwhite.toString().replace(/,/g, '');
 
 }
-
+$('input[name="chb[]"]').change(function () {
+    let checkedCount = $("input[name='chb[]']:checked").length;
+    if (checkedCount > 0) {
+        $('#checked-count').html(' ('+checkedCount+')');
+    } else {
+        $('#checked-count').html('');
+    }
+});
+$('#clear-button').click(function () {
+    $("input[name='chb[]']:checked").each(function () {
+        $(this).prop( "checked", false );
+        $('#checked-count').html('');
+    });
+});
 //function to shuffle the positions in array;
 function functionShuffle(a) {
         
@@ -51,5 +64,3 @@ function functionGetSelectedChbox(firstp,lastp) {
     return selchbox;
 
 }
-	
-	
